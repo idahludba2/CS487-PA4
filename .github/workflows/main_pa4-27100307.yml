@@ -42,6 +42,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'pa4-27100307'
-          slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2C52DD7377504E8E97DA323322A9F197 }}
